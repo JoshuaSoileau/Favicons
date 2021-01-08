@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-globals */
 import React from "react";
 import { GlobalStyles } from "twin.macro";
-import { LoadFont } from "./Fonts";
+import LoadFont from "./LoadFont";
 import { AppProvider } from "./providers/AppProvider";
 
 LoadFont();
