@@ -18,7 +18,8 @@
     "styled-components": "^5.2.1",
     "styled-jsx": "^3.2.4",
     "tailwindcss": "^2.0.1",
-    "twin.macro": "^2.0.4"
+    "twin.macro": "^2.0.4",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "start": "react-app-rewired start",

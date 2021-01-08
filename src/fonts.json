@@ -1,0 +1,22 @@
+{
+  "sans": {
+    "name": "Lato",
+    "weights": [400, 500, 700]
+  },
+  "serif": {
+    "name": "Vollkorn",
+    "weights": [300, 500, 700]
+  },
+  "others": [
+    {
+      "name": "Open Sans",
+      "weights": [300, 500, 700],
+      "title": "open-sans"
+    },
+    {
+      "name": "Roboto",
+      "weights": [300, 500, 700],
+      "title": "roboto"
+    }
+  ]
+}
