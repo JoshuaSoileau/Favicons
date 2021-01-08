@@ -34,9 +34,19 @@ const Right = () => {
           onFocus={() => setIsLooping(false)}
         >
           {copied ? (
-            <div>✅ &nbsp; &nbsp; Copied!</div>
+            <div>
+              <span role="img" aria-label="checkmark">
+                ✅
+              </span>
+              &nbsp; &nbsp; Copied!
+            </div>
           ) : (
-            <div>📋 &nbsp; &nbsp;Click to copy</div>
+            <div>
+              <span role="img" aria-label="checkmark">
+                📋
+              </span>
+              &nbsp; &nbsp;Click to copy
+            </div>
           )}
         </button>
       </footer>
