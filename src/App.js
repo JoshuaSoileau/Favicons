@@ -1,6 +1,8 @@
 /* eslint-disable no-restricted-globals */
 import React from "react";
 import { GlobalStyles } from "twin.macro";
+import Left from "./components/Left";
+import Right from "./components/Right";
 import LoadFont from "./LoadFont";
 import { AppProvider } from "./providers/AppProvider";
 
@@ -11,11 +13,12 @@ function App() {
     <AppProvider>
       <GlobalStyles />
 
-      <div tw="h-screen flex items-center justify-center bg-gradient-to-r from-gray-100">
-        <h1 tw="text-xl  rounded-4xl  p-12  bg-white font-serif">
-          This is a creat-react-app with Tailwind and Twin.Macro!
-        </h1>
-      </div>
+      <main tw="bg-gradient-to-r from-blue-50 min-h-screen flex flex-col items-center">
+        <div tw="min-h-screen grid lg:grid-cols-2 gap-32 items-center  max-w-7xl  mx-auto  px-8">
+          <Left />
+          <Right />
+        </div>
+      </main>
     </AppProvider>
   );
 }

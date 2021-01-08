@@ -1,7 +1,7 @@
 {
   "sans": {
     "name": "Lato",
-    "weights": [400, 500, 700]
+    "weights": [300, 400, 500, 700]
   },
   "serif": {
     "name": "Vollkorn",

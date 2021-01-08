@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Emojicons",
+  "name": "Turn emojis into favicons",
   "icons": [
     {
       "src": "favicon.ico",
