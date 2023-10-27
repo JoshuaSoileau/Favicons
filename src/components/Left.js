@@ -14,18 +14,18 @@ const Left = () => {
   return (
     <div>
       <div className="prose">
-        <h1 tw="text-6xl  font-serif font-bold">
+        <h1 className="text-6xl  font-serif font-bold">
           Turn&nbsp;
-          <span tw="text-pink-300">emojis</span>
-          <span tw="block">
+          <span className="text-pink-300">emojis</span>
+          <span className="block">
             into&nbsp;
-            <span tw="text-green-600">favicons</span>
+            <span className="text-green-600">favicons</span>
           </span>
         </h1>
-        <p tw="text-lg font-sans font-light mt-2">
+        <p className="text-lg font-sans font-light mt-2">
           Did you know that you could use&nbsp;
           <a
-            tw="font-bold text-purple-500  hover:(text-purple-800 underline)"
+            className="font-bold text-purple-500  hover:(text-purple-800 underline)"
             href="https://css-tricks.com/emojis-as-favicons/"
             target="_blank"
             rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const Left = () => {
 
       <input
         type="text"
-        tw="text-7xl rounded-5xl bg-white p-12 py-6 mt-16 w-full  outline-none focus:(outline-none  shadow-2xl)  shadow-lg transition-all duration-500 ease-in-out"
+        className="text-7xl rounded-5xl bg-white p-12 py-6 mt-16 w-full  outline-none focus:(outline-none  shadow-2xl)  shadow-lg transition-all duration-500 ease-in-out"
         maxLength="8"
         onChange={handleChange}
         onFocus={() => setIsLooping(false)}

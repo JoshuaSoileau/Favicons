@@ -11,14 +11,14 @@ const Right = () => {
 />`);
 
   return (
-    <aside tw="bg-yellow-100  rounded-2xl  overflow-hidden">
-      <header tw="p-8  text-yellow-900  text-2xl">
-        <strong tw="font-serif">The HTML.</strong>
+    <aside className="bg-yellow-100  rounded-2xl  overflow-hidden">
+      <header className="p-8  text-yellow-900  text-2xl">
+        <strong className="font-serif">The HTML.</strong>
         &nbsp;Put this in the &lt;head&gt;
       </header>
-      <div tw="p-8  border-t-2 border-solid border-yellow-200">
-        <pre tw="whitespace-pre-wrap  text-lg">
-          <code tw="text-yellow-900">
+      <div className="p-8  border-t-2 border-solid border-yellow-200">
+        <pre className="whitespace-pre-wrap  text-lg">
+          <code className="text-yellow-900">
             {`<link
   rel="icon"
   href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>${emoji}</text></svg>"
@@ -29,7 +29,7 @@ const Right = () => {
       <footer>
         <button
           type="button"
-          tw="w-full p-8 bg-yellow-500 bg-opacity-30  flex  text-yellow-900  focus:(outline-none bg-opacity-40)  hover:(bg-opacity-40)"
+          className="w-full p-8 bg-yellow-500 bg-opacity-30  flex  text-yellow-900  focus:(outline-none bg-opacity-40)  hover:(bg-opacity-40)"
           onClick={copy}
           onFocus={() => setIsLooping(false)}
         >
